@@ -1,37 +1,17 @@
-# AI/ML Tasks
-
-This repository contains my AI/ML completed internship tasks.
+# AI Advanced Tasks
+This repository contains advanced AI/ML tasks with separate Jupyter notebooks.
 
 ## Completed Tasks:
+### Task 2: End-to-End ML Pipeline with Scikit-learn
+- Built customer churn prediction pipeline
+- Used Logistic Regression & Random Forest
+- Hyperparameter tuning with GridSearchCV
+- Exported pipeline with joblib
 
-### Task 1: Exploring the Iris Dataset
-- Explored the Iris dataset using pandas, seaborn, matplotlib
-- Created scatter plots, histograms, and box plots
-- Described data using `.head()`, `.info()`, and `.describe()`
-
-### Task 2: Predicting Next Day’s Stock Price
-- Used Tesla stock data from Yahoo Finance (`yfinance`)
-- Applied Linear Regression and Random Forest models
-- Evaluated with R² Score and RMSE
-- Visualized actual vs predicted closing prices
-
-### Task 3: Multimodal Learning (Image + Text)
-- Combined image embeddings (ResNet50) with text embeddings (BERT)
-- Trained a simple classifier on concatenated features
-- Demonstrated predictions on small image–caption dataset
-- Showed potential applications in image–text classification
-
-### Task 4: Health Chatbot using GPT-3.5
-- Built a chatbot using OpenAI GPT-3.5 API
-- Prompt engineered for safe and friendly health responses
-- Added optional safety filters to avoid harmful advice
-- Tested with real questions like "What causes a sore throat?"
-
-### Task 5: LLM Application – Document Summarizer
-- Implemented a summarizer using Hugging Face Transformers
-- Allowed users to input/upload text for automatic summarization
-- Provided extractive and abstractive summaries
-- Built a demo app using Streamlit/Gradio
+### Task 3: Multimodal Housing Price Prediction
+- Combined CNN features from images with tabular data
+- Built regression model for house price prediction
+- Evaluated with MAE & RMSE
 
 ## Notes
-These notebooks were built in Jupyter using Python libraries.
+- These notebooks require Python 3, Jupyter, and packages listed in requirements.txt
