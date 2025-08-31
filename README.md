@@ -2,6 +2,11 @@
 This repository contains advanced AI/ML tasks with separate Jupyter notebooks.
 
 ## Completed Tasks:
+### Task 1: News Topic Classifier Using BERT
+- Fine-tuned BERT on AG News dataset
+- Evaluated using accuracy & F1-score
+- Deployed with Gradio
+
 ### Task 2: End-to-End ML Pipeline with Scikit-learn
 - Built customer churn prediction pipeline
 - Used Logistic Regression & Random Forest
